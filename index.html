@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Zena Network</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+        
+
+        <div class="fiksposition">
+            <div class="container3">
+        <img src="/img/logo.png" alt="Foto" class="centered-image">
+            </div>
+            
+    <div class="containeranim">
+        <div class="header">
+                <div id="typewriter"><h1 id="text"></h1></div></div>
+
+                  <div class="container1">
+          <button class="container1 infoo" onclick="a()">Next</button>
+        </div>
+<!--MENU1-->
+  <script src="main.js"></script>
+</body>
+</html>
+<script>
+                              function a() {
+                              window.open("next.html", "_blank");
+                            }
+          const text = "Welcome To Zena Network ";
+let index = 0;
+function typeWriter() {
+  const typewriterText = document.getElementById("text");
+  if (index < text.length) {
+    typewriterText.innerHTML += text.charAt(index);
+    index++;
+    setTimeout(typeWriter, 100);
+  }
+}
+typeWriter();
+let textElement = document.getElementById('text');
+
+function animateTypewriter() {
+  textElement.style.animation = 'none';
+  void textElement.offsetWidth;
+  textElement.style.animation = null;
+}
+
+setInterval(animateTypewriter, 6000);
+
+          const galleryContainer = document.querySelector('.gallery-container');
+          
+          galleryContainer.addEventListener('wheel', (event) => {
+          event.preventDefault();
+          galleryContainer.scrollLeft += event.deltaY;
+          });
+</script>
