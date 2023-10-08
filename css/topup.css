@@ -1,0 +1,147 @@
+body {
+    font-size: 15pt;
+    background-color: #212429;
+}
+
+.container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+}
+
+.box {
+        background-color: whitesmoke;
+        padding: 20px;
+        text-align: center;
+        margin: 10px;
+        height: 200px;
+        box-shadow: 2px 6px 4px;
+        background-color: rgba(0, 0, 0, 0.3);
+        position:relative;
+        top:150px;
+}
+
+h2 {
+        color: white;
+}
+h3 {
+        color: white;
+        background-color: limegreen;
+}
+
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  color: black;
+}
+
+.infoo {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+  border-radius: 10px;
+}
+
+ .navbar {
+         display: flex;
+         justify-content: flex-end;
+         position: fixed;
+         right: 1.5%;
+         top: 1%;
+         width: 10px;
+ }
+.fi {
+        position: relative;
+        width: 100px;
+}
+
+ .toggle-btn {
+         background-color: #0A171D;
+         border: none;
+         padding: 10px 190px;
+         cursor: pointer;
+         color: white;
+ }
+
+ .menu {
+         display: none;
+         list-style-type: none;
+         position: fixed;
+         top: 30px;
+         left: 2px;
+         width: 400px;
+         background-color: #0A171D;
+         padding: 9px;
+         z-index: 999;
+         border-radius: 10px;
+ }
+
+ .menu li {
+         padding: 5px;
+         margin: -8px;
+ }
+
+ .menu li a {
+         text-decoration: none;
+         color: greenyellow;
+
+ }
+ .menu.active {
+    display: block;
+}
+
+main {
+  padding-top: 40px; /* Mengatur padding atas agar konten tidak tertutup oleh navigasi */
+}
+ .menu.active {
+    display: block;
+}
+
+.con {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.box1 {
+        width: 400px;
+        height: 100px;
+        box-shadow: 2px 6px 4px;
+       position: relative;
+       top: 150px;
+        background-color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        color: #58627B;
+        border-radius: 10px;
+        position: relative;
+}
+
+.conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  color: black;
+}
+
+.info1 {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+}

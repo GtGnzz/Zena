@@ -1,0 +1,93 @@
+body {
+    font-size: 15pt;
+    background-color: #212429;
+}
+ .navbar {
+         display: flex;
+         justify-content: flex-end;
+         position: fixed;
+         right: 1.5%;
+         top: 1%;
+         width: 10px;
+ }
+.fi {
+        position: relative;
+        width: 100px;
+}
+
+ .toggle-btn {
+         background-color: #0A171D;
+         border: none;
+         padding: 10px 190px;
+         cursor: pointer;
+         color: white;
+ }
+
+ .menu {
+         display: none;
+         list-style-type: none;
+         position: fixed;
+         top: 30px;
+         left: 2px;
+         width: 400px;
+         background-color: #0A171D;
+         padding: 9px;
+         z-index: 999;
+         border-radius: 10px;
+ }
+
+ .menu li {
+         padding: 5px;
+         margin: -8px;
+ }
+
+ .menu li a {
+         text-decoration: none;
+         color: greenyellow;
+
+ }
+ .menu.active {
+    display: block;
+}
+
+main {
+  padding-top: 40px; /* Mengatur padding atas agar konten tidak tertutup oleh navigasi */
+}
+
+.con {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.box1 {
+        width: 300px;
+        height: 300px;
+        box-shadow: 2px 6px 4px;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        color: #58627B;
+        border-radius: 10px;
+        position: relative;
+        top: 160px;
+}
+
+.fiksposition {
+        position: relative;
+        top: 10px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-image {
+max-width: 40%;
+max-height: 40%;
+}
+h3 {
+   background-color: skyblue
+}
